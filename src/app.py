@@ -1,10 +1,10 @@
-"""
-Main application entry point for the Git branching project.
-"""
+from auth.login import login
+from auth.logout import logout
 
 def main():
     print("=== Application Started ===")
-    print("Core system is running...")
+    login()
+    logout()
 
 if __name__ == "__main__":
     main()
