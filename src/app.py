@@ -3,8 +3,9 @@ from auth.logout import logout
 from ui.header import header
 
 def main():
-    print("=== Application Started ===")
+    print("=== Application Started (v2) ===")
     header()
+    print("User flow starting...")
     login()
     logout()
 
